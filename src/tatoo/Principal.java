@@ -41,4 +41,8 @@ public class Principal {
 		
 		System.out.println("En el local " + venta.getLocal().getNombre() + " " + venta.getCliente().getNombre() + " se hizo los tatuajes " + tatuajes + " y le costaron " + venta.getMonto());
 	}
+	
+	public static int getValor() {
+		return 12;
+	}
 }
